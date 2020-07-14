@@ -1,0 +1,738 @@
+@import url("../../fonts/proxima_nova.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Proxima Nova Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    background-color:#FFF;
+    color: #81888E;
+}
+
+button {
+    cursor: pointer;
+    outline:none;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 140%;
+    color: #FFF;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: #292A34;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 178.2%;
+    color: #292A34;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+.header-info {
+    background: #292A34;
+    width: 100%;
+    height: 720px;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 60px 0px 60px;
+}
+
+/*бургер для мобильной версии*/
+.m-menu {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.m-menu .m-line {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 451px;
+    padding-top: 8px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 26px;
+    border-bottom: 4px solid transparent;
+}
+
+.header__menu a:hover {
+    border-bottom: 4px solid #c5ccd3;
+}
+/*Конец шапки навигации*/
+
+.info__content {
+    padding-top: 102px;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header__img {
+    top: 429px;
+    position: absolute;
+    right: 0;
+    max-width: 1180px;
+    width: 95%;
+    max-height: 474px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-desktop {
+    max-width: 1180px;
+    max-height: 474px;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.info__text {
+    color: #FFF;
+}
+
+.about {
+    padding-top: 299px;
+}
+
+.container__about {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #130F0E;
+    margin-bottom: 18px;
+}
+
+.about__text {
+    line-height: 140%;
+    text-align: center;
+    color: #81888E;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*start section MortgageSecure*/
+
+.Secure {
+    padding-top: 110px;
+    padding-bottom: 146px;
+}
+
+.container__Secure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Secure__about-logo {
+    margin-top: 13px;
+    margin-bottom: 31px;
+}
+
+.Secure__about-text {
+    line-height: 140%;
+    color: #81888E;
+    max-width: 500px;
+    width: 100%;
+}
+
+.Secure--color {
+    font-weight: bold;
+    font-style: italic;
+    color: #292A34;
+}
+
+.Secure__img {
+    max-width: 528px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Secure__about-button {
+    font-size: 20px;
+    margin-top: 30px;
+    height: 46px;
+    background: #292A34;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 9px 41px;
+}
+
+/*Конец MortgageSecure*/
+
+.WageSecure {
+    background: #F7F7F7;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.WageSecure__container {
+    padding-left: 91px;
+    padding-right: 101px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.WageSecure__about-logo {
+    margin-top: 44px;
+    margin-bottom: 31px;
+}
+
+.WageSecure__text {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #81888E;
+    padding-top: 46px;
+}
+
+.Wagesecure--italic {
+    font-style: italic;
+}
+
+.Wagesecure--color {
+    font-weight: bold;
+    color: #292A34;
+}
+
+/*Начало секции Content*/
+.content__wrapper {
+    padding-top: 95px;
+}
+.content__paragraph-first {
+    padding-top: 25px;
+    max-width: 800px;
+    width: 100%;
+    font-weight: normal;
+    line-height: 140%;
+}
+
+.content__img{
+    float: right;
+    max-width: 500px;
+    width: 100%;
+    padding-top: 45px;
+    margin-left: 80px;
+}
+
+.content__paragraph-second {
+    padding-top: 56px;
+}
+
+.content__paragraph-third {
+    padding-top: 45px;
+}
+
+/*Начало секции Contact*/
+
+.contact {
+    padding-top: 137px;
+}
+.contact--underline {
+    text-decoration: underline;
+    color: #81888E;
+    font-weight: normal;
+}
+
+.contact__text {
+    padding-top: 10px;
+}
+
+.howToContact {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress__text {
+    padding-top: 10px;
+    max-width: 314px;
+    width: 100%;
+    line-height: 178.2%;
+}
+
+.adresses__email {
+    padding-top: 34px;
+}
+.email--color {
+    font-weight: bold;
+    color: #292A34;
+}
+
+.input__text {
+    width: 716px;
+    height: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 18px;
+    line-height: 178.2%;
+}
+
+form {
+    width: 716px;
+}
+.input-column__one {
+    width: 305px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 67px;
+}
+
+.input-column__two {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 205px;
+    height: 40px;
+    border: 1px solid #81888E;
+    box-sizing: border-box;
+    line-height: 178.2%;
+    color: #81888E;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.texarea__box {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+}
+
+textarea {
+    max-width: 616px;
+    width: 100%;
+    height: 130px;
+    border: 1px solid #81888E;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 178.2%;
+    color: #81888E;
+    padding: 0 18px;
+    resize: none;
+    outline: none;
+}
+
+.submit {
+    width: 250px;
+    height: 46px;
+    background: #292A34;
+    margin-top: 20px;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 178.2%;
+    color: #FFFFFF;
+}
+
+/*Конец секции Contact*/
+
+.line {
+    margin-top: 53px;
+    width: 100%;
+    background: #E5E5E5;
+    border: 2px solid #F7F7F7
+}
+
+.logo-container {
+    padding: 38px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    background: #292A34;
+}
+
+.footer__text {
+    padding-top: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer__data {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.desktop {
+    padding-top: 44px;
+    padding-bottom: 28px;
+}
+
+.footer-mobile {
+    padding: 192px 30px 20px 30px;
+    display: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1000px) {
+    .container__Secure {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Secure__about-text {
+        max-width: 800px;
+    }
+
+    .content__wrapper {
+        padding-top: 80px;
+    }
+
+    .content__img {
+        margin-left: 25px;
+    }
+
+    .howToContact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 140%;
+    }
+
+    /*НАВИГАЦИЯ*/
+ 
+    .about {
+        padding-top: 217px;
+    }
+
+    .header__top-inner {
+        max-width: 768px;
+        width: 100%;
+        display: block;
+        padding: 21px 30px;
+    }
+
+    .m-menu {
+        display: flex;
+    }
+
+    .header__menu.responsive {
+        display: block;
+        position: absolute;
+        max-width: 768px;
+        width: 100%;
+        right: 0;
+        flex-direction: column;
+        z-index: 100;
+        background: #292A34;
+        text-align: center;
+        padding-top: 159px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu.responsive a:not(:last-of-type) {
+        padding-bottom: 50px;
+    }
+
+    .header__menu a.active{
+        border-bottom: none;
+    }
+
+    .header__menu a:hover {
+        border-bottom: none;
+    }
+
+    .header__menu a {
+        padding-bottom: 0;
+    }
+
+    .container__about {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .footer-mobile {
+        display: block;
+    }
+
+     /*Конец навигации*/
+
+    .logo-container {
+        display: block;
+        padding: 42px 34px;
+    }
+
+    .logo-company__img:nth-child(odd) {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .logo-company__img:not(:last-of-type) {
+        margin-bottom: 42px;
+    }
+
+    .container {
+        padding: 0 30px;
+        max-width: 768px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .Secure__about {
+        margin-bottom: 30px;
+    }
+
+    .Secure__about-logo {
+        margin-top: 30px;
+    }
+
+    .Secure__about-text {
+        max-width: 768px;
+    }
+
+    .two-img {
+        max-height: 92px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .input__text {
+        display: block;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .content__img {
+        margin-bottom: 30px; 
+    }
+
+    form {
+        width: 300px;
+        padding-top: 30px;
+    }
+
+    .input-column__one , .input-column__two{
+        width: 300px;
+        margin-bottom: 21px;
+    }
+
+    input {
+        width: 180px;
+    }
+
+    .logo-container {
+        display: block;
+    }
+
+    .texarea__box {
+        float: none;
+        padding-top: 144px;
+    }
+
+    .line {
+        margin-top: 123px;
+    }
+
+    .submit {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .footer-container {
+        padding: 0 30px 28px 30px;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .mobile {
+        display: block;
+    }
+    
+    .info__content {
+        padding-top: 38px;
+    }
+
+    .info__text {
+        padding-top: 8px;
+    }
+
+    .header__img {
+        top: 340px;
+    }
+
+    .header-info {
+        height: 498px;
+    }
+    .img-desktop {
+        display: none;
+    }
+    
+    .img-mobile {
+        display: block;
+        max-width: 332px;
+        max-height: 309px;
+    }
+
+    .container__Secure {
+        flex-direction: column-reverse;
+    }
+
+    .Secure__about {
+        margin-bottom: 0;
+    }
+    
+    .Secure__about-logo {
+        max-width: 300px;
+        width: 100%;
+        height: 93.62px; 
+    }
+
+    .Secure__about-button {
+        font-size: 20px;
+    }
+
+    .WageSecure__container {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 360px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .WageSecure__about-logo  {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .WageSecure__container .container__Secure {
+        display: block;
+    }
+
+    .WageSecure {
+        padding-top: 117px;
+        padding-bottom: 74px;
+    }
+
+    .WageSecure__about-logo {
+        margin-top: 39px;
+        margin-bottom: 31px;
+    }
+
+    .WageSecure__text {
+        font-size: 18px;
+    }
+
+    .content__img {
+        margin-left: 0;
+    }
+
+    .contact {
+        padding-top: 89px;
+    }
+
+    
+}
